@@ -6,9 +6,10 @@
     <title>My Resume</title>   
 </head>
 
-<body>
-               <!-- Begin Profile: this will go on the left side of the page and includes my contact details and my bio -->
-    <header>
+<body class="container-fluid">
+    
+<!-- Profile Address and Bio -->
+   <section class="container col-sm-6">
         <div>
             <img class="profile-picture" src="Assets/img/resumePic.jpg" alt="Profile Picture" height="228" width="228"/> <!--alt is an attribute and are necessary to stay in at the top of the searches.-->
             <h1>Christian Thompson</h1> 
@@ -22,108 +23,98 @@
         </div> 
         <div>    
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quae nisi minima debitis tempora laboriosam provident itaque, quos cupiditate ullam, praesentium suscipit ipsum dicta. Dolorum vero id voluptatem quas iusto officiis obcaecati veniam fugit enim doloremque animi error saepe ipsam quis voluptate iste, maxime ut, ea minima temporibus, in at nostrum! Sapiente nobis qui omnis provident quam quae, fugit, officia ex sed neque dolores sint, cum doloribus porro molestiae ut. Similique provident necessitatibus repudiandae nihil obcaecati cupiditate veritatis ea quod numquam, magni aut deleniti distinctio enim amet, quibusdam perspiciatis cum fugit non a inventore, harum temporibus quia esse. Est, omnis.</p>
-        </div>
-        <div>
-            <h1>Associations & Notible Acheivments</h1>
+        </div>                     
+    
+ <!--Associations & Notable Acheivements-->
+ 
+        <h1 id="list3">Associations & Notable Achievments</h1>
+        <ul>
             <li></li>
-        </div>                
-        
-    </header>
-                <!--Work History: this will go on the right side of page-->
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+    
+ <!--Work History: this will go on the right side of page-->
+    <section class="col-sm-6 col-sm-offset 4">                
+        <div>
+            <h1 id="list1">Work History</h1>
+            <ul>
+                <li>
+                    <div>
+                        <h3>Century21 RiverStone</h3>
+                        <h4>Residential Real Estate Professional</h4>
+                        <p>2007 - 2015</p>
+                        <p>Specialized in Listing and Selling Waterfront and recreational homes and land</p>
+                    </div>
+            </li>
+            <li>
+                    <div>
+                        <h3>Mt Hood Community College</h3>
+                        <h4>Adjunct Professor</h4>
+                        <p>2005-2006</p>
+                        <p>short description</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Challenge Course Instructor</h3>
+                        <h4>title</h4>
+                        <p>dates of employment</p>
+                        <p>short description</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>company</h3>
+                        <h4>title</h4>
+                        <p>dates of employment</p>
+                        <p>short description</p>
+                    </div>
+                </li>
                 
- <section>   
-    <div>
-        <h1 id="list1">Work History</h1>
-        <ul>
-            <li>
-                <div>
-                    <h3>Century21 RiverStone</h3>
-                    <h4>Residential Real Estate Professional</h4>
-                    <p>2007 - 2015</p>
-                    <p>Specialized in Listing and Selling Waterfront and recreational homes and land</p>
-                </div>
-           </li>
-           <li>
-                <div>
-                    <h3>Mt Hood Community College</h3>
-                    <h4>Adjunct Professor</h4>
-                    <p>2005-2006</p>
-                    <p>short description</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>Challenge Course Instructor</h3>
-                    <h4>title</h4>
-                    <p>dates of employment</p>
-                    <p>short description</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>company</h3>
-                    <h4>title</h4>
-                    <p>dates of employment</p>
-                    <p>short description</p>
-                </div>
-            </li>
-            
-        </ul>
-            
-    </div>
-                <!--Education: this will also go on the right side of page under the work history-->
-    <div>
- </section>
- <section>
-        <h1>Education</h1>
-        <ul>
-            <li>
-                <div>
-                    <h3>School</h3>
-                    <h4>Degree</h4>
-                    <p>dates attended</p>
-                    <p>short description</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>School</h3>
-                    <h4>Degree</h4>
-                    <p>dates attended</p>
-                    <p>short description</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>School</h3>
-                    <h4>Degree</h4>
-                    <p>dates attended</p>
-                    <p>short description</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section> 
-
-<section>
-    <h1>Associations & Notable Achievments</h1>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</section>
-            <!--I would like to add scrolling photos to my resume-->
-<section>
-    
-    
-</section>   
-<footer>
-    <p>Footer Goes here.</p>
-</footer>
-    
-</body>
-</html>
+            </ul>
+                
+        </div>
+        
+<!--Education: this will also go on the right side of page under the work history-->
+            <div>
+                <h1>Education</h1>
+                <ul>
+                    <li>
+                        <div>
+                            <h3>School</h3>
+                            <h4>Degree</h4>
+                            <p>dates attended</p>
+                            <p>short description</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>School</h3>
+                            <h4>Degree</h4>
+                            <p>dates attended</p>
+                            <p>short description</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>School</h3>
+                            <h4>Degree</h4>
+                            <p>dates attended</p>
+                            <p>short description</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </section>        
+                <!--Footer can contain links or Maybe I don't need it-->  
+    <footer class="row">
+        <p>Footer Goes here.</p>
+    </footer>
+        
+    </body>
+    </html>
