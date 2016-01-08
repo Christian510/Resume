@@ -6,12 +6,12 @@
     color: green
 }
 
-#container{
+body{
      background-color: darkgrey;
      color: #fff;
             
         }
-.Profile Picture{
+.Profile-Picture{
      border-radius: 50%;
      border: 5px solid;
      border-color: #D09147;
