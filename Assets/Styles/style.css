@@ -17,3 +17,15 @@ p{
 li{
     font-size: 20px;
 }
+#name{
+    font-size: 40px;
+}
+.padding{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+#contact{
+    padding-left: 100px;
+}
