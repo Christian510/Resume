@@ -9,9 +9,11 @@ body{
      border-color: #D09147;
      border-style: double; 
         }
-.h1{
-     size: 30px;
+        
     }
-.p{
-    font-size: medium;
+p{
+    font-size: 50px;
 }                                   
+ul{
+    font-size: 50px;
+}
