@@ -29,10 +29,14 @@ li{
 #contact{
     padding-left: 100px;
 }
+
+#education{
+    border: 1px darkred;
+}
 #work{
     border: 1px darkred;
     
 }
-#education{
-    border: 1px darkred
+#wrkEdu{
+    border: 1px darkred;
 }
