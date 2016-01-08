@@ -1,14 +1,19 @@
 *{
     border: 1px solid red;
 }
-.body{
-            background-color: darkgrey;
-            color: #fff;
+
+#list1{
+    color: green
+}
+
+#container{
+     background-color: darkgrey;
+     color: #fff;
             
         }
 .Profile Picture{
-            border-radius: 50%;
-            border: 5px solid;
-            border-color: #D09147;
-            border-style: double; 
+     border-radius: 50%;
+     border: 5px solid;
+     border-color: #D09147;
+     border-style: double; 
         }
