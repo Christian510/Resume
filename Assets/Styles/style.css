@@ -1,17 +1,20 @@
-*{
-    border: 1px red
 }
 body{
      background-color: darkgrey;
-     color: #fff;
-            
+     color: #fff;    
         }
+.headline-group{
+    height: 800px;
+}        
 .Profile-Picture{
      border-radius: 50%;
      border: 5px solid;
      border-color: #D09147;
      border-style: double; 
         }
+.bio{
+    
+}
         
 p{
     font-size: 20px;
@@ -32,14 +35,7 @@ li{
 #contact{
     padding-left: 100px;
 }
-
-#education{
-    border: 1px darkred;
-}
-#work{
-    border: 1px darkred;
-    
-}
-#wrkEdu{
-    border: 1px darkred;
+#work2{
+    height: 100px;
+    background-color: 
 }
