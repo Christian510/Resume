@@ -1,3 +1,6 @@
+*{
+    border: 1px red
+}
 body{
      background-color: darkgrey;
      color: #fff;
