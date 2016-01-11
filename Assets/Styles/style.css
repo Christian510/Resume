@@ -1,15 +1,36 @@
+@import url('bootstrap.min.css');
+
+#home{
+    background: url()'/assets/img/resumePic1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 12%;
+        }
+
+#bg{
+    background:url('../img/con_bg4.png') no-repeat center center;
+    height: 500px;
+}
+
 body{
      /*background-color: darkgrey;*/
      color: #1D141C;    
         }
 .headline-group{
     height: 800px;
+    color: 
+}
+#home{
+    background: #5B6071
+    
 }        
 .Profile-Picture{
      /*border-radius: 50%;*/
-     border: 5px solid;
-     border-color: #D09147;
-     border-style: double; 
+     /*border: 5px solid;
+     border-color: #84644B;
+     border-style: solid;*/ 
         }
 .row{
     /*padding-top: 5em;*/
