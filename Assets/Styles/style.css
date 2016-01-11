@@ -1,26 +1,26 @@
 
-#home{
-    background-image: url()(assets/img/resumePic1.jpg);
-}
-
 body{
      /*background-color: darkgrey;*/
      color: #1D141C;    
         }
-.headline-group{
-    height: 800px;
-    color: 
-}
-#home{
-    background: #5B6071;
-      
+        
+#header{
+    background-color: #487978
 }        
+#home{
+    /*background: #5B6071;*/
+      
+} 
+     
 .Profile-Picture{
      /*border-radius: 50%;*/
      /*border: 5px solid;
      border-color: #84644B;
      border-style: solid;*/ 
         }
+.bio{
+    background-color: #DCE1E6;
+}
 .row{
     /*padding-top: 5em;*/
     padding-bottom: 5em;
