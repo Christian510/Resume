@@ -1,17 +1,6 @@
-@import url('bootstrap.min.css');
 
 #home{
-    background: url()'/assets/img/resumePic1.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin-top: 12%;
-        }
-
-#bg{
-    background:url('../img/con_bg4.png') no-repeat center center;
-    height: 500px;
+    background-image: url()(assets/img/resumePic1.jpg);
 }
 
 body{
@@ -23,8 +12,8 @@ body{
     color: 
 }
 #home{
-    background: #5B6071
-    
+    background: #5B6071;
+      
 }        
 .Profile-Picture{
      /*border-radius: 50%;*/
