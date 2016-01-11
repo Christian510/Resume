@@ -1,19 +1,19 @@
-}
 body{
-     background-color: darkgrey;
-     color: #fff;    
+     /*background-color: darkgrey;*/
+     color: #1D141C;    
         }
 .headline-group{
     height: 800px;
 }        
 .Profile-Picture{
-     border-radius: 50%;
+     /*border-radius: 50%;*/
      border: 5px solid;
      border-color: #D09147;
      border-style: double; 
         }
-.bio{
-    
+.row{
+    /*padding-top: 5em;*/
+    padding-bottom: 5em;
 }
         
 p{
@@ -37,5 +37,12 @@ li{
 }
 #work2{
     height: 100px;
-    background-color: 
+    background-color:
 }
+footer{
+    background-color: #5A668C
+}
+/*#achievments{
+    padding-top: 10em;
+    padding-bottom: 5em;
+}*/
