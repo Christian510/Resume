@@ -1,0 +1,87 @@
+
+body {
+    /*margin: 0;*/
+    height: 100%;
+    font-family: 'Cinzel', serif; 
+    font-weight: 700;
+    
+    /*From http://themes.3rdwavemedia.com/demo/orbit/ style sheet*/
+    /*font-family: 'Roboto', sans-serif;
+    color: ;
+    background: ;
+    font-size: ;
+    padding: 30px;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    
+/*Centers the Header Name*/
+}
+#headerName {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;   
+}
+
+/*Centers the navbar links.*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+/*Makes the background of the navbar transparent.  Hambeerger stays visable*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { 
+    color: #000 
+} 
+
+/*End Navbar styling*/
+/*Main Content Styling*/
+#mainContent {
+    margin-top: 60px;
+    padding-top: 75px;
+    height: 500px;
+    width: 100%;
+    align-content: center;
+    
+}
+#myImage {
+    height: 300px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    background-color: lightgreen;
+    padding-left: 50px;
+}
+img {
+    border-radius: 50%;
+}
+.col myImage {
+    width: 50%;
+    
+}
+#aboutMe {
+    border-left: 5px solid slategray;
+    height: 300px;
+    background-color: lightcoral;
+}
+
+/*Footer Styling*/
+.fa {
+    color: #161212;
+    margin:0 10px 0 0;
+}
+#icons {
+    /*margin-bottom: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}

@@ -1,0 +1,56 @@
+
+body{
+    background-image: url();  
+        }
+        
+#header{
+    background-color: #487978;
+    padding-top: 15px
+}        
+#home{
+    /*background: #5B6071;*/
+      
+} 
+     
+.profilImg{
+    
+        }
+.bio{
+    background-color: #DCE1E6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.row{
+    /*padding-top: 5em;*/
+    padding-bottom: 5em;
+}
+        
+p{
+    font-size: 20px;
+}                                   
+
+li{
+    font-size: 20px;
+}
+.name{
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+#contact{
+    padding-left: 100px;
+}
+#work{
+    height: 100px;
+    background-color: #B8B7BE;
+}
+#footer{
+    background-color: #5A668C
+}
+.list3{
+    text-align: center
+}
+/*#achievments{
+    padding-top: 10em;
+    padding-bottom: 5em;
+}*/
