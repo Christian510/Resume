@@ -1,0 +1,122 @@
+body {
+    font-family: 'Cinzel', serif; 
+    font-weight: 700;
+}
+
+/*Centers the Header Name*/
+#headerName {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;   
+}
+
+/*Centers the navbar links.*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+/*Makes the background of the navbar transparent.  Hamberger stays visable*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { 
+    color: #000 
+} 
+/*End Navbar styling*/
+
+/*Styling of Main Content*/
+#wrapper {
+   padding-bottom: 10px;    
+}
+.right {
+    padding-left: 10px;  
+}
+.left {
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+h4,p {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: normal;
+   font-size: large;
+   text-transform: none;
+}
+h4 {
+    font-size: 1.4em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.8em;
+}
+@media (max-width: 768px) {
+    .left {
+        text-align: left;
+}
+    #at {
+        display: none;
+    }
+    #headerName {
+        text-align: left;
+        padding-left: 30px;
+    }
+}
+/*End Main Content Styling*/
+/*Work History*/
+.wrk {
+    padding-left: 20px;
+}
+/*End Work History*/
+/*Education*/
+#ed {
+    text-align: right;
+}
+.padBottom {
+    padding-bottom: 10px;
+    line-height: 1em;
+}
+.lineH {
+    line-height: 1em;
+}
+/*End of Education*/
+
+/*Associations & Certificates*/
+#AandC {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#asso {
+    text-align: right;
+}
+#at {
+    text-align: center;
+    font-size: 7em;
+}
+/*End Associates & Certificates*/
+
+/*Footer Styling*/
+.fa {
+    color: #161212;
+    margin:0 15px 0 0;
+    padding-left: 35px;
+}
+.fa-facebook {
+    padding-left: 55px;
+}
+#icons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+/*End Footer Styling*/

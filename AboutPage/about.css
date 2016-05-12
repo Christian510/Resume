@@ -12,9 +12,8 @@ body {
     font-size: ;
     padding: 30px;*/
     /*-webkit-font-smoothing: antialiased;*/
-    
+}   
 /*Centers the Header Name*/
-}
 #headerName {
    text-align: center;
    padding-top: 10px;
