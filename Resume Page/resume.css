@@ -73,11 +73,13 @@ h2 {
     }
 }
 /*End Main Content Styling*/
+
 /*Work History*/
 .wrk {
     padding-left: 20px;
 }
 /*End Work History*/
+
 /*Education*/
 #ed {
     text-align: right;
@@ -113,23 +115,22 @@ a:link {
   text-decoration: none;  
 }
 a:hover {
-  color: darkslategray ;
+  color: darkred;
 }
-/*End Associates & Certificates*/
+/*End Associations & Certificates*/
 
-/*Footer Styling*/
 .fa {
     color: #161212;
-    margin:0 15px 0 0;
-    padding-left: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.fa-facebook {
-    padding-left: 55px;
+.fa:hover {
+    color: darkred;
 }
-#icons {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 400px;
+#center {
+  float: none;
+  vertical-align: top;
+  text-align: center;
 }
 /*End Footer Styling*/
 
