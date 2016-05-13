@@ -103,6 +103,18 @@ h2 {
     text-align: center;
     font-size: 7em;
 }
+@media (max-width: 992px) {
+    #at {
+        display: none;
+    }
+}
+a:link {
+  color: black;
+  text-decoration: none;  
+}
+a:hover {
+  color: darkslategray ;
+}
 /*End Associates & Certificates*/
 
 /*Footer Styling*/
@@ -120,3 +132,5 @@ h2 {
     width: 400px;
 }
 /*End Footer Styling*/
+
+
